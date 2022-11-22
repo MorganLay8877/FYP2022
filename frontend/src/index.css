@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #EDEAE0 !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/*html, .App, #root, .auth-wrapper**/
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+label.class {
+  font-family: inherit;
+  font-weight: normal;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.radioBtnBox {
+  margin-left: 500px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  border-radius: 10px; 
+  background: #ffffff;
+  width: 257px;
+  height: 100px;
+  padding: 10px;
+  text-align: left;
+  line-height: 15px;
+}
+
+.radioText1 {
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.btn1 {
+  margin-right: 10px;
+}
+
+.btn2 {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.questionTextBox {
+  border : 1px solid #ccc;
+  background-color: white;
+  border-radius: 10px;
+  word-wrap: break-word;
+  width: 100%;
+  font-family: Sans-serif;
+  text-align: center;
+  font-size: 25px;
+  height: 35px;
+}
+
+.questionTextBoxCont {
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  border-radius : 10px;
+  padding: 10px;
+  width: 550px;
+  margin-left: 500px;
+  margin-top: -45px;
+}
+
+.questionLabel {
+  text-align: left;
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.parent {
+  flex:none;
+}
+
+.child2 { 
+  margin-top: -290px;
+  margin-left: 1100px;
+}
+.child1 {
+  margin-left: 500px ;
+  margin-top: 10px;
+  width: 550px;
+  min-width: 550px;
+  height: 330px;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.adminParent {
+  display: flex;
+  gap: 100px;
+}
+
+.adminChild1 {
+  flex: 1;
+  margin-left: 100px;
+}
+
+.adminChild2{
+  flex: 1;
+  margin-right: 100px;
+}
+
+.auth-inner {
+  margin: auto;
+  margin-top: 200px;
+  width: 550px;
+  min-width: 550px;
+  height: 320px;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 10px;
+  transition: all .3s;
+  text-align: left;
+}
+
+.signIn {
+  text-align: center;
+}
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.custom-control-label {
+  font-weight: 400;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+.forgot-password a {
+  color: #167bff;
+}
+.clrBtn {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #d3d3d3;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: absolute;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  top: 327px;
+  left: 790px;
+  z-index: 1;
+}
+
+.clrBtn:hover {
+  background-color: #d3d3d3;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.clrBtn:hover {
+  transform: translateY(-1px);
+}
+
+.clrBtn:active {
+  background-color: #d3d3d3;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
